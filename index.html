@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap Example</title>
+  <link href="https://fonts.googleapis.com/css?family=Oxygen:400,700|Lora:700" rel="stylesheet">
+
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+<body> 
+
+
+
+  <!-- Header -->
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="">
+        <div class="navbar-header">
+          <!-- Toggle button for mobile -->
+          <div class="navbar-brand">
+            <a href="index.html">
+              <h1>Luxury Nest Hottel</h1>
+            </a>
+    <div src="images/star-k-logo.png" alt="Kosher certification"></div>
+            <span>Kosher Certified</span>
+          </div>
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+        </div>
+
+        <!-- Collapsible Navigation Menu -->
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+            
+    
+
+   
+            
+    <li class="visible-xs active">
+              <a href="index.html">
+                <span class="glyphicon glyphicon-home"></span>Home
+              </a>
+            </li>
+              <li>
+              <a href="menu-categories.html">
+                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs">Menu
+              </a>
+            </li>
+            <li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs">About
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs">Awards
+              </a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:410-602-5008">
+                <span>035-5431-0766</span>
+              </a>
+              <div>* We Deliver</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<!-- Phone section for small screens only -->
+<div id="phone-xs" class="visible-xs" >
+  <a href="tel:410-602-5008">+920-3554-3330-55</a>
+ <div>CONTACT US</div>
+</div>
+
+
+
+
+
+
+
+<!-- JUMBOTRON SECTION -->
+<div class="container" id="main-content">
+  <div>
+    <!-- XS ONLY image for small devices -->
+
+    <!-- XS ONLY: Mobile -->
+  
+    <!-- SM ONLY: Tablet -->
+    <img src="images/instagram-square-post-1080x1080.jpg" 
+         alt="Tablet View" 
+         class="img-responsive visible-sm">
+
+    <!-- MD & LG: Desktop -->
+    <img src="images/instagram-square-post-1080x1080.jpg" 
+         alt="Desktop View" 
+         class="img-responsive visible-md visible-lg">
+         
+    <img src="images/instagram-square-post-1080x1080.jpg" 
+         alt="picture of Restaurant "
+         class="img-responsive visible-xs">
+  </div>
+</div>
+<br>
+
+
+
+
+
+
+
+
+                                                                           <!--MAIN POINTS-->
+
+<div id="home-tiles" class="row">
+  <!-- Menu Tile -->
+  <div class="col-xs-12 col-sm-6 col-md-4">
+    <a href="menu-categories.html">
+      <div id="menu-tile">
+        <span>Menu</span>
+      </div>
+    </a>
+  </div>
+  <!-- Specials Tile -->
+  <div class="col-xs-12 col-sm-6 col-md-4">
+    <a href="specials.html">
+      <div id="specials-tile">
+        <span>Specials</span>
+      </div>
+    </a>
+  </div>
+  <!-- Map Tile -->
+  <div class="col-xs-12 col-sm-12 col-md-4">
+    <a href="https://maps.app.goo.gl/v1j54KPADiJ73udr6" target="_blank">
+      <div id="map-tile">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1921.4072685944088!2d74.25764509798694!3d35.912488435901984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38e6351f647756b3%3A0x37d0c3dfed9b5e7d!2sWali%20Restaurant%20%26%20Swimming%20pool!5e0!3m2!1sen!2s!4v1754024289226!5m2!1sen!2s" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <span>Map</span>
+      </div>
+    </a>
+  </div>
+</div>
+  </div>
+
+<!--FOOTER-->
+<footer class="panel-footer">
+    <div class="">
+      <div class="row">
+
+        <!-- Hours -->
+        <div class="col-sm-4">
+          <span>Hours:</span><br>
+          Mon-Fri: 10am - 9pm<br>
+          Sat: 11am - 10pm<br>
+          Sun: 11am - 8pm<br>
+          <hr class="visible-xs">
+        </div>
+
+        <!-- Address -->
+        <div class="col-sm-4" id="address">
+          <span>Address:</span><br>
+          123 Main St.<br>
+          Anytown, USA<br>
+          <p>Delivery area within 3-4 miles</p>
+          <hr class="visible-xs">
+        </div>
+
+        <!-- Testimonials -->
+        <div class="col-sm-4" id="testimonials">
+          <p>"Great food and fast service!"</p>
+          <p>"My favorite place to eat!"</p>
+        </div>
+
+      </div>
+
+      <!-- Copyright -->
+      <div class="text-center">
+        &copy;FUTURE LEADERS 2025
+      </div>
+    </div>
+  </footer>
+  <!-- jQuery (only needed for Bootstrap <5) -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Custom JS -->
+  <script src="js/script.js"></script>
+</body>
+</html>
